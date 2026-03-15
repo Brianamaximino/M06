@@ -242,3 +242,25 @@ Revealjs is better for technical or data presentations, while PowerPoint is easi
 
 Revealjs felt modern and dynamic but also more technical.  
 I think with more practice it can become very useful for professional presentations.
+
+## Question 5 Reflection {#sec-q5}
+
+### Presentation Link
+
+My Revealjs presentation link is:  
+[View my Revealjs presentation](https://brianamaximino.github.io/M06/)
+
+### What the presentation is about
+
+My presentation is about my marketing portfolio and my future career goals.  
+It shows my background as a business marketing student, my skills, and what type of marketing work I want to do in the future.  
+It is also like a draft version of my real portfolio website that I will build later.
+
+### What I learned about Revealjs
+
+From this experience I learned that Revealjs is more flexible than PowerPoint because it uses code.  
+You can change themes, layouts, animations, and make slides interactive.  
+I also learned that you can publish the presentation like a real website which makes it more professional.  
+
+However it was harder at first because you need to understand Quarto and coding.  
+Overall Revealjs is powerful and good for modern presentations.

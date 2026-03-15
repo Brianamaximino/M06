@@ -1,152 +1,193 @@
 ---
-title: "Briana Maximino"
-subtitle: "Future Marketing Strategist Portfolio Draft"
-author: "Website Planning Presentation"
-format:
+title: "Brian's Portfolio Website Plan"
+subtitle: "Proposal Presentation"
+author: "Briana Maximino"
+institute: "IBM 6400, Cal Poly Pomona"
+date: "`r Sys.Date()`"
+format: 
   revealjs:
-    theme: simple
+    theme: serif
+    width: 1600
+    height: 900
+    footer: Title of Your Project
+    transition: slide
+    transition-speed: default
+    incremental: false
+    toc: true
+    toc-depth: 1
     slide-number: true
-    transition: fade
-    incremental: true
-    self-contained: false
+    scrollable: true
+    smaller: true
+    code-fold: false
+    code-overflow: wrap
+    number-sections: false
+    number-depth: 5
+    embed-resources: true
+    css: styles.css
+editor: visual
+execute: 
+  echo: true
+  freeze: auto
 ---
 
-# Portfolio Website Vision
+## My Website Plan
 
-## Main goal of this website
+This presentation explains the portfolio website I am building.
 
-- Present my marketing projects professionally  
-- Show real student learning journey  
-- Build personal brand identity  
-- Support internship opportunities  
-- Demonstrate strategic thinking  
-- Create digital marketing presence  
+The goal is to create a professional website that shows:
+- my marketing skills  
+- my projects  
+- my analytics experience  
+- my future career goals  
 
----
-
-# Personal Brand Direction
-
-## How I want to be seen
-
-- Aspiring marketing strategist  
-- Data-driven decision maker  
-- Creative campaign thinker  
-- Business-minded student  
-- Future sports marketing professional  
-- Growth-focused learner  
+This website will help recruiters understand my work.
 
 ---
 
-# Homepage Layout Draft
+## Why I Need a Portfolio Website
 
-## Planned homepage structure
+Marketing today is very competitive.
 
-- Short professional introduction  
-- Career goal statement  
-- Highlighted marketing project  
-- Simple navigation menu  
-- Clean modern layout  
-- Professional first impression  
+Having only a resume is not enough.
 
----
+A portfolio website helps me:
+- show real projects  
+- show analytics skills  
+- show creativity  
+- build personal brand  
 
-# About Me Page Plan
-
-## Key content ideas
-
-- Business Administration background  
-- Marketing concentration focus  
-- Academic experience summary  
-- Marketing skill development  
-- Career interests explanation  
-- Resume download feature  
+This makes me more prepared for internships and jobs.
 
 ---
 
-# Marketing Projects Section
+## Website Structure
 
-## How projects will be structured
+My portfolio website will include these main pages:
 
-- Project overview first  
-- Marketing problem explained  
-- Strategy and execution shown  
-- Campaign outcomes discussed  
-- Personal learning reflection  
-- Skills clearly highlighted  
+- Home Page  
+- Marketing Projects  
+- Analytics Dashboard  
+- Revealjs Presentation  
+- Contact Page  
 
----
-
-# Example Project Structure
-
-## Super Soakerz Campaign
-
-- Student business concept explanation  
-- Target market identification  
-- Marketing campaign development  
-- Promotion strategy execution  
-- Campaign effectiveness reflection  
-- Strategic marketing insights gained  
+Each page has a clear purpose.
 
 ---
 
-# Analytics & Data Section
+## Home Page
 
-## Purpose of this section
+The home page will introduce me.
 
-- Demonstrate GA4 knowledge  
-- Show marketing performance thinking  
-- Present data-based insights  
-- Explain consumer behavior analysis  
-- Connect data to strategy decisions  
-- Highlight analytical growth  
+It will include:
+- short personal statement  
+- career goal in marketing  
+- skills summary  
+- navigation to projects  
 
----
-
-# Career Direction Page
-
-## Long-term marketing vision
-
-- Interest in sports marketing industry  
-- Focus on brand engagement strategies  
-- Goal of marketing internship experience  
-- Development of strategic skills  
-- Interest in digital marketing growth  
-- Commitment to continuous learning  
+This helps visitors quickly understand who I am.
 
 ---
 
-# Website Design Strategy
+## Marketing Projects Page
 
-## Visual identity plan
+This page will show my marketing work.
 
-- Minimal professional design  
-- Neutral modern color palette  
-- Clear typography hierarchy  
-- Organized content layout  
-- Strong readability focus  
-- Simple but strategic aesthetic  
+Examples include:
+- Super Soakerz campaign  
+- class marketing projects  
+- brand strategy work  
+- campaign analysis  
 
----
-
-# Professional Contact Section
-
-## Planned elements
-
-- LinkedIn profile connection  
-- Professional email access  
-- Resume viewing option  
-- Future project updates  
-- Networking opportunities  
+This section shows real experience.
 
 ---
 
-# Final Reflection
+## Analytics Dashboard
 
-## Why this portfolio matters
+Marketing today is data-driven.
 
-- Helps organize academic marketing work  
-- Builds early professional identity  
-- Supports internship competitiveness  
-- Demonstrates strategic mindset  
-- Shows continuous skill development  
-- Represents long-term career goals  
+This page will show:
+- Google Analytics insights  
+- campaign performance metrics  
+- data visualizations  
+- marketing results  
+
+This shows I understand marketing analytics.
+
+---
+
+## Revealjs Presentation Page
+
+This Revealjs presentation is part of my website.
+
+It shows:
+- my website planning process  
+- my technical skills  
+- my ability to present ideas  
+
+It also shows I can use modern tools.
+
+---
+
+## Google Analytics Integration
+
+I plan to connect Google Analytics to my website.
+
+This will help:
+- track visitors  
+- understand engagement  
+- improve marketing strategy  
+
+Learning analytics is important for marketing careers.
+
+---
+
+## Career Goal
+
+My long-term goal is to become a marketing strategist.
+
+This website helps me:
+- build credibility  
+- showcase skills  
+- prepare for internships  
+- stand out in job market  
+
+It is part of my professional growth.
+
+---
+
+## My Published Reveal Presentation
+
+You can view my Revealjs presentation here:
+
+[Portfolio Presentation Link](https://brianamaximino.github.io/M06/)
+
+---
+
+## What I Learned From Revealjs
+
+Using Revealjs helped me learn:
+
+- presentations can be built using code  
+- slides can be interactive and modern  
+- themes and transitions improve storytelling  
+- publishing online is useful  
+
+Compared to PowerPoint:
+- Revealjs is more flexible  
+- PowerPoint is easier at first  
+- Revealjs is better for portfolios and websites  
+
+---
+
+## Conclusion
+
+This website is still a draft.
+
+But it is the foundation of my professional portfolio.
+
+I will continue improving it as I gain more experience.
+
+---
+
+## Thank You
