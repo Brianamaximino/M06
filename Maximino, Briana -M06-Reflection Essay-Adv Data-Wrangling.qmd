@@ -1,0 +1,244 @@
+---
+title: "M06 Reflection Essay"
+author: "Briana Maximino"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-expand: true
+    number-sections: true
+    theme: journal
+    code-fold: true
+    code-tools: true
+    code-overflow: wrap
+    self-contained: true
+editor: visual
+execute:
+  echo: true
+---
+
+## Exam Reflection Essay
+
+**Prompt:**  
+What did you learn from the Tidyverse tricks presentation that was new or not covered in Module 05?
+
+**Response:**  
+
+From the tidyverse tricks talk I learned some new small tools that were not really explained in Module 05. In M05 we mostly focused on basic tidyverse like `filter()`, `mutate()`, `summarize()` and simple ggplot graphs. But this presentation showed more workflow tricks that make coding faster.
+
+One thing I learned was how powerful the `count()` function is. I did not know before that it can sort results or use weights. Another new idea was `add_count()` which can replace doing `group_by()` and `mutate()` in multiple steps. This makes coding easier and saves time.
+
+I also learned that `summarize()` can create list columns which was very new to me. The visualization tricks like `fct_reorder()`, `coord_flip()`, and using log scales help make graphs easier to understand.
+
+Functions like `separate()` and `extract()` also showed how tidyverse helps clean messy real world data. Overall this talk helped me understand that tidyverse is not just basic commands but many small tricks that improve workflow and make analysis more efficient.
+
+## Question 2 Reflection {#sec-q2}
+
+### Prompt
+What do you think about David Robinson's impromptu screencast performance in Step 2? How much were you able to understand?
+
+::: {.callout-note}
+This reflection is about his live coding style and how much I understood.
+:::
+
+I think David Robinson’s impromptu screencast was interesting but also kinda hard to follow sometimes. It was cool seeing him work with data he never saw before because it felt more real and not too perfect. It showed that data analysis can be messy and people have to test ideas and fix errors as they go.
+
+I understood the basic parts more clearly, like loading data, cleaning it, and making some graphs. I also understood that he used tidyverse to explore patterns. But when he started debugging fast and trying many solutions, I got confused because it was more advanced and moved quickly.
+
+> What helped me most was hearing his thinking process out loud.
+
+This showed me that data science is not always smooth and sometimes you need to experiment.
+
+### What I understood
+
+- Goal of exploring new dataset  
+- Some tidyverse workflow  
+- Debugging is normal in coding  
+- Not every code detail was clear  
+
+### Understanding Breakdown
+
+::: {.panel-tabset}
+
+#### What I liked
+It felt realistic and showed real problem solving.
+
+#### What was hard
+Fast debugging and advanced coding steps.
+
+#### How much I understood
+I think I understood about half of it overall.
+:::
+
+### Table Summary {#tbl-q2}
+
+| Part | Understanding |
+|------|-------------|
+| Data loading | Good |
+| Cleaning | Pretty good |
+| Visualization | Good |
+| Debugging | Hard |
+| Advanced code | Confusing |
+
+Table @tbl-q2 shows what I understood better vs harder.
+
+### Small Example Code  
+
+```{r}
+library(tidyverse)
+
+example_data <- tibble(
+  category = c("loading","cleaning","visualizing","debugging","coding")
+)
+
+example_data |> count(category, sort = TRUE)
+```
+
+## Question 3 Reflection {#sec-q3}
+
+### Prompt  
+In Step 3, you saw two videos, one showing initial data cleaning and the other showing further cleaning. Describe the two processes. What are the big differences between the two? How do the differences result in the differences in final sample size?
+
+::: {.callout-note}
+This reflection explains how early cleaning vs deeper cleaning changes the dataset and results.
+:::
+
+### My Reflection  
+
+In Step 3, the first video showed the **initial data cleaning process**.  
+This part was more basic and focused on making the dataset usable.  
+For example, fixing column names, handling missing values, and making the structure tidy.  
+This step does not remove too much data. It mostly prepares the dataset so it can be analyzed.
+
+The second video showed **further cleaning**, which was more advanced.  
+This included filtering observations, removing outliers, and applying stricter rules.  
+This step changes the dataset more because more rows get removed.
+
+> The biggest difference is that the first cleaning prepares the data,  
+> while the second cleaning refines and reduces the data.
+
+Because the second cleaning removes more observations, the final sample size becomes smaller.  
+This happens because stricter conditions mean fewer valid cases remain.
+
+### Process Comparison  
+
+::: {.panel-tabset}
+
+#### Initial Cleaning  
+- Fix formatting  
+- Handle missing values  
+- Restructure dataset  
+- Keep most observations  
+
+#### Further Cleaning  
+- Remove outliers  
+- Apply filters  
+- Refine variables  
+- Reduce sample size  
+
+#### Effect on Sample Size  
+More strict cleaning → smaller dataset  
+Less strict cleaning → larger dataset  
+
+:::
+
+### Understanding Summary Table {#tbl-q3}
+
+| Part | Understanding |
+|------|-------------|
+| Data loading | Good |
+| Cleaning | Pretty good |
+| Visualization | Good |
+| Debugging | Hard |
+| Advanced code | Confusing |
+
+Table @tbl-q3 shows what I understood better vs harder.
+
+### Key Insight  
+
+Further cleaning improves **data quality**,  
+but it reduces **data quantity**.
+
+This trade-off is important in real data analysis.
+
+[^clean]: Cleaning decisions affect results and interpretation.
+
+### Small Example Code  
+
+```{r}
+library(tidyverse)
+
+example_data <- tibble(
+  category = c("loading","cleaning","visualizing","debugging","coding")
+)
+
+example_data |> count(category, sort = TRUE)
+```
+
+## Question 4 Reflection {#sec-q4}
+
+### Prompt  
+In Step 4, you learned how to create a Revealjs presentation.  
+What is your impression of Revealjs?  
+What can it do?  
+How is it different from PowerPoint?
+
+::: {.callout-note}
+This reflection explains what I learned about Revealjs slides and how they compare to PPT.
+:::
+
+From the video I learned that Revealjs is very powerful and flexible for making presentations.  
+It is different from normal slides because everything is coded in Quarto instead of clicking buttons like PowerPoint.
+
+One thing I liked is that Revealjs has many interactive features.  
+For example there is navigation menu, overview mode, speaker view, zoom, chalkboard, and multiplex.  
+These tools help make the presentation more engaging and also easier to control.  
+Multiplex was especially interesting because the presenter can control audience slides online which is something PowerPoint cannot really do.
+
+Another capability is themes and customization.  
+Revealjs allows changing themes quickly using YAML settings.  
+Also you can customize styles using SCSS which gives more design control.  
+This makes slides more professional and consistent but also more technical to learn.
+
+I also noticed that Revealjs allows incremental lists, animations, transitions, hidden slides, and code execution display.  
+This makes it very useful for data science presentations.  
+For example you can show code step by step which helps teaching.
+
+Compared to PowerPoint, Revealjs strengths are flexibility, reproducibility, interactivity, and integration with data analysis.  
+However its weakness is that it is harder to learn and requires coding knowledge.  
+PowerPoint is easier and faster for beginners but less customizable.
+
+Overall I think Revealjs is more powerful but also more complex.  
+I liked how it connects presentation with analysis workflow, but it may take more time to master.
+
+::: {.callout-tip}
+Revealjs is better for technical or data presentations, while PowerPoint is easier for simple presentations.
+:::
+
+### Feature Comparison
+
+::: {.panel-tabset}
+
+#### Strengths of Revealjs
+- interactive tools (zoom, chalkboard, multiplex)  
+- code integration  
+- customizable themes  
+- reproducible slides  
+- better for analytics work  
+
+#### Weaknesses of Revealjs
+- harder to learn  
+- requires coding  
+- debugging issues possible  
+- slower workflow at first  
+
+#### PowerPoint Comparison
+- easier interface  
+- faster for simple slides  
+- less flexible customization  
+- not reproducible for data workflows  
+
+:::
+
+Revealjs felt modern and dynamic but also more technical.  
+I think with more practice it can become very useful for professional presentations.

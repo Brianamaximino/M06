@@ -1,0 +1,152 @@
+---
+title: "Briana Maximino"
+subtitle: "Future Marketing Strategist Portfolio Draft"
+author: "Website Planning Presentation"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+    incremental: true
+    self-contained: false
+---
+
+# Portfolio Website Vision
+
+## Main goal of this website
+
+- Present my marketing projects professionally  
+- Show real student learning journey  
+- Build personal brand identity  
+- Support internship opportunities  
+- Demonstrate strategic thinking  
+- Create digital marketing presence  
+
+---
+
+# Personal Brand Direction
+
+## How I want to be seen
+
+- Aspiring marketing strategist  
+- Data-driven decision maker  
+- Creative campaign thinker  
+- Business-minded student  
+- Future sports marketing professional  
+- Growth-focused learner  
+
+---
+
+# Homepage Layout Draft
+
+## Planned homepage structure
+
+- Short professional introduction  
+- Career goal statement  
+- Highlighted marketing project  
+- Simple navigation menu  
+- Clean modern layout  
+- Professional first impression  
+
+---
+
+# About Me Page Plan
+
+## Key content ideas
+
+- Business Administration background  
+- Marketing concentration focus  
+- Academic experience summary  
+- Marketing skill development  
+- Career interests explanation  
+- Resume download feature  
+
+---
+
+# Marketing Projects Section
+
+## How projects will be structured
+
+- Project overview first  
+- Marketing problem explained  
+- Strategy and execution shown  
+- Campaign outcomes discussed  
+- Personal learning reflection  
+- Skills clearly highlighted  
+
+---
+
+# Example Project Structure
+
+## Super Soakerz Campaign
+
+- Student business concept explanation  
+- Target market identification  
+- Marketing campaign development  
+- Promotion strategy execution  
+- Campaign effectiveness reflection  
+- Strategic marketing insights gained  
+
+---
+
+# Analytics & Data Section
+
+## Purpose of this section
+
+- Demonstrate GA4 knowledge  
+- Show marketing performance thinking  
+- Present data-based insights  
+- Explain consumer behavior analysis  
+- Connect data to strategy decisions  
+- Highlight analytical growth  
+
+---
+
+# Career Direction Page
+
+## Long-term marketing vision
+
+- Interest in sports marketing industry  
+- Focus on brand engagement strategies  
+- Goal of marketing internship experience  
+- Development of strategic skills  
+- Interest in digital marketing growth  
+- Commitment to continuous learning  
+
+---
+
+# Website Design Strategy
+
+## Visual identity plan
+
+- Minimal professional design  
+- Neutral modern color palette  
+- Clear typography hierarchy  
+- Organized content layout  
+- Strong readability focus  
+- Simple but strategic aesthetic  
+
+---
+
+# Professional Contact Section
+
+## Planned elements
+
+- LinkedIn profile connection  
+- Professional email access  
+- Resume viewing option  
+- Future project updates  
+- Networking opportunities  
+
+---
+
+# Final Reflection
+
+## Why this portfolio matters
+
+- Helps organize academic marketing work  
+- Builds early professional identity  
+- Supports internship competitiveness  
+- Demonstrates strategic mindset  
+- Shows continuous skill development  
+- Represents long-term career goals  
