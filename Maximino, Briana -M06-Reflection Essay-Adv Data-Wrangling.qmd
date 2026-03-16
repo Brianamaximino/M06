@@ -5,8 +5,8 @@ format:
   html:
     toc: true
     toc-depth: 3
-    toc-expand: true
-    number-sections: true
+    toc-expand: false
+    number-sections: false
     theme: journal
     code-fold: true
     code-tools: true
@@ -249,7 +249,6 @@ I think with more practice it can become very useful for professional presentati
 
 My Revealjs presentation link is:  
 [View my Revealjs presentation](https://brianamaximino.github.io/M06/)
-
 ### What the presentation is about
 
 My presentation is about my marketing portfolio and my future career goals.  
@@ -264,3 +263,81 @@ I also learned that you can publish the presentation like a real website which m
 
 However it was harder at first because you need to understand Quarto and coding.  
 Overall Revealjs is powerful and good for modern presentations.
+
+## Step 6 Reflection – Advanced Wrangling
+
+In the advanced wrangling lecture, I learned new concepts that were not covered before in M05.  
+One important topic was joining relational databases.  
+This means combining datasets using a shared variable like an id.
+
+Joining is useful when data is stored in different tables but we want to analyze it together.  
+Below are three join functions I learned.
+
+---
+
+### 1. left_join()
+
+We use left join when we want to keep all rows from the main dataset.  
+Even if the second dataset does not have matching values, the original data stays.
+
+```{r}
+library(tidyverse)
+
+students <- tibble(
+  id = c(1,2,3,4),
+  name = c("Ana","Ben","Chris","Diana")
+)
+
+grades <- tibble(
+  id = c(1,2,4),
+  grade = c(90,85,88)
+)
+
+left_join(students, grades, by = "id")
+```
+
+## Question 7 Reflection – Data Wrangling Experience
+
+
+The thing I liked the most about working with the tools in this module was using **dplyr functions** like `filter()`, `mutate()`, and `summarize()`.  
+These functions made data cleaning feel more organized and logical.  
+Before learning tidyverse tools, working with data felt confusing and stressful.  
+Now it feels more structured, like following steps in a process.
+
+For example, I liked how `mutate()` lets me create new variables easily.  
+Instead of doing complicated calculations separately, I can transform data directly inside the dataset.  
+Also `group_by()` + `summarize()` helped me understand patterns faster because I could quickly see averages or totals.
+
+Another thing I liked was **tidyr tools**, especially `pivot_longer()` and `pivot_wider()`.  
+These functions helped me understand how data shape affects analysis.  
+At first it was confusing, but once I practiced, I realized reshaping data is very powerful.
+
+What I also liked is that tidyverse code is readable.  
+It almost feels like writing sentences.  
+This makes debugging easier and helps me understand my own code later.
+
+Overall, this module helped me realize that good analysis depends on clean data first.  
+Visualization may look impressive, but wrangling is what makes the results meaningful.  
+I also understand that there is still more to learn in future modules, and I feel more confident now to continue improving my data skills.
+
+## Reflection 8 – Challenges learning wrangling tools
+
+One challenge for me when learning wrangling tools is that there is just too many functions.  
+Sometimes I dont know which one to use or why one is better than another.  
+I also get confused when I try to combine many steps together because the code can get messy fast.
+
+Another problem is working with real data.  
+The datasets are not always clean like examples in class.  
+So I spend a lot of time just trying to understand the data first before even doing analysis.  
+When errors show up I get frustrated because I dont always know what the error means.
+
+To overcome this I think focusing on basics is the best way.  
+Instead of trying to learn everything at once, I should just practice simple functions like `filter()`, `mutate()`, and `group_by()`.  
+Once I understand these better, then I can move to harder tools.
+
+I also think watching videos and coding along helps alot.  
+But I learned that just copying code is not enough.  
+I need to stop, think, and try to understand what each step is doing.
+
+Overall wrangling is hard but I feel like practice makes it easier.  
+If I keep working on it little by little I will improve and feel more confident using the tools.
