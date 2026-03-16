@@ -7,8 +7,8 @@ date: "`r Sys.Date()`"
 format: 
   revealjs:
     theme: serif
-    width: 2000
-    height: 900
+    width: 2600
+    height: 1000
     footer: Title of Your Project
     transition: slide
     transition-speed: default
