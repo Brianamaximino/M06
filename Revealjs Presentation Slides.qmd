@@ -1,15 +1,33 @@
 ---
-title: "Briana Maximino"
-subtitle: "Future Marketing Strategist Portfolio Plan"
-author: "Portfolio Website Proposal"
-format:
+title: "Briana Maximino's Marketing Portfolio Website"
+subtitle: "Proposal Presentation"
+author: "Briana Maximino"
+institute: "IBM 6400, Cal Poly Pomona"
+date: "`r Sys.Date()`"
+format: 
   revealjs:
     theme: serif
-    slide-number: true
+    width: 1600
+    height: 900
+    footer: Title of Your Project
     transition: slide
-    toc: true
-    scrollable: true
+    transition-speed: default
     incremental: false
+    toc: true
+    toc-depth: 1
+    slide-number: true
+    scrollable: true
+    smaller: true
+    code-fold: false
+    code-overflow: wrap
+    number-sections: false
+    number-depth: 5
+    embed-resources: true
+    css: styles.css
+editor: visual
+execute: 
+  echo: true
+  freeze: auto
 ---
 
 # Portfolio Website Vision
