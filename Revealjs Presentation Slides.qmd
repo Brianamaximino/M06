@@ -22,6 +22,7 @@ format:
     code-overflow: wrap
     number-sections: false
     number-depth: 5
+    embed-resources: false
     css: styles.css
 editor: visual
 execute: 
