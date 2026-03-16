@@ -1,0 +1,353 @@
+---
+title: "M06 Reflection Essay"
+author: "Briana Maximino"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-expand: false
+    number-sections: false
+    theme: journal
+    code-fold: true
+    code-tools: true
+    code-overflow: wrap
+    self-contained: true
+editor: visual
+execute:
+  echo: true
+---
+
+## Published Presentation Link
+
+My published presentation can be viewed here:  
+
+[View my presentation](https://brianamaximino.github.io/Reveal-Slides/#/title-slide)
+
+## Published Essay Reflection Link
+
+My published essay reflection can be viewed here:
+[View my essay reflection](https://brianamaximino.github.io/M06/)
+
+## Exam Reflection Essay
+
+**Prompt:**  
+What did you learn from the Tidyverse tricks presentation that was new or not covered in Module 05?
+
+**Response:**  
+
+From the tidyverse tricks talk I learned some new small tools that were not really explained in Module 05. In M05 we mostly focused on basic tidyverse like `filter()`, `mutate()`, `summarize()` and simple ggplot graphs. But this presentation showed more workflow tricks that make coding faster.
+
+One thing I learned was how powerful the `count()` function is. I did not know before that it can sort results or use weights. Another new idea was `add_count()` which can replace doing `group_by()` and `mutate()` in multiple steps. This makes coding easier and saves time.
+
+I also learned that `summarize()` can create list columns which was very new to me. The visualization tricks like `fct_reorder()`, `coord_flip()`, and using log scales help make graphs easier to understand.
+
+Functions like `separate()` and `extract()` also showed how tidyverse helps clean messy real world data. Overall this talk helped me understand that tidyverse is not just basic commands but many small tricks that improve workflow and make analysis more efficient.
+
+## Question 2 Reflection {#sec-q2}
+
+### Prompt
+What do you think about David Robinson's impromptu screencast performance in Step 2? How much were you able to understand?
+
+::: {.callout-note}
+This reflection is about his live coding style and how much I understood.
+:::
+
+I think David Robinson’s impromptu screencast was interesting but also kinda hard to follow sometimes. It was cool seeing him work with data he never saw before because it felt more real and not too perfect. It showed that data analysis can be messy and people have to test ideas and fix errors as they go.
+
+I understood the basic parts more clearly, like loading data, cleaning it, and making some graphs. I also understood that he used tidyverse to explore patterns. But when he started debugging fast and trying many solutions, I got confused because it was more advanced and moved quickly.
+
+> What helped me most was hearing his thinking process out loud.
+
+This showed me that data science is not always smooth and sometimes you need to experiment.
+
+### What I understood
+
+- Goal of exploring new dataset  
+- Some tidyverse workflow  
+- Debugging is normal in coding  
+- Not every code detail was clear  
+
+### Understanding Breakdown
+
+::: {.panel-tabset}
+
+#### What I liked
+It felt realistic and showed real problem solving.
+
+#### What was hard
+Fast debugging and advanced coding steps.
+
+#### How much I understood
+I think I understood about half of it overall.
+:::
+
+### Table Summary {#tbl-q2}
+
+| Part | Understanding |
+|------|-------------|
+| Data loading | Good |
+| Cleaning | Pretty good |
+| Visualization | Good |
+| Debugging | Hard |
+| Advanced code | Confusing |
+
+Table @tbl-q2 shows what I understood better vs harder.
+
+### Small Example Code  
+
+```{r}
+library(tidyverse)
+
+example_data <- tibble(
+  category = c("loading","cleaning","visualizing","debugging","coding")
+)
+
+example_data |> count(category, sort = TRUE)
+```
+
+## Question 3 Reflection {#sec-q3}
+
+### Prompt  
+In Step 3, you saw two videos, one showing initial data cleaning and the other showing further cleaning. Describe the two processes. What are the big differences between the two? How do the differences result in the differences in final sample size?
+
+::: {.callout-note}
+This reflection explains how early cleaning vs deeper cleaning changes the dataset and results.
+:::
+
+### My Reflection  
+
+In Step 3, the first video showed the **initial data cleaning process**.  
+This part was more basic and focused on making the dataset usable.  
+For example, fixing column names, handling missing values, and making the structure tidy.  
+This step does not remove too much data. It mostly prepares the dataset so it can be analyzed.
+
+The second video showed **further cleaning**, which was more advanced.  
+This included filtering observations, removing outliers, and applying stricter rules.  
+This step changes the dataset more because more rows get removed.
+
+> The biggest difference is that the first cleaning prepares the data,  
+> while the second cleaning refines and reduces the data.
+
+Because the second cleaning removes more observations, the final sample size becomes smaller.  
+This happens because stricter conditions mean fewer valid cases remain.
+
+### Process Comparison  
+
+::: {.panel-tabset}
+
+#### Initial Cleaning  
+- Fix formatting  
+- Handle missing values  
+- Restructure dataset  
+- Keep most observations  
+
+#### Further Cleaning  
+- Remove outliers  
+- Apply filters  
+- Refine variables  
+- Reduce sample size  
+
+#### Effect on Sample Size  
+More strict cleaning → smaller dataset  
+Less strict cleaning → larger dataset  
+
+:::
+
+### Understanding Summary Table {#tbl-q3}
+
+| Part | Understanding |
+|------|-------------|
+| Data loading | Good |
+| Cleaning | Pretty good |
+| Visualization | Good |
+| Debugging | Hard |
+| Advanced code | Confusing |
+
+Table @tbl-q3 shows what I understood better vs harder.
+
+### Key Insight  
+
+Further cleaning improves **data quality**,  
+but it reduces **data quantity**.
+
+This trade-off is important in real data analysis.
+
+[^clean]: Cleaning decisions affect results and interpretation.
+
+### Small Example Code  
+
+```{r}
+library(tidyverse)
+
+example_data <- tibble(
+  category = c("loading","cleaning","visualizing","debugging","coding")
+)
+
+example_data |> count(category, sort = TRUE)
+```
+
+## Question 4 Reflection {#sec-q4}
+
+### Prompt  
+In Step 4, you learned how to create a Revealjs presentation.  
+What is your impression of Revealjs?  
+What can it do?  
+How is it different from PowerPoint?
+
+::: {.callout-note}
+This reflection explains what I learned about Revealjs slides and how they compare to PPT.
+:::
+
+From the video I learned that Revealjs is very powerful and flexible for making presentations.  
+It is different from normal slides because everything is coded in Quarto instead of clicking buttons like PowerPoint.
+
+One thing I liked is that Revealjs has many interactive features.  
+For example there is navigation menu, overview mode, speaker view, zoom, chalkboard, and multiplex.  
+These tools help make the presentation more engaging and also easier to control.  
+Multiplex was especially interesting because the presenter can control audience slides online which is something PowerPoint cannot really do.
+
+Another capability is themes and customization.  
+Revealjs allows changing themes quickly using YAML settings.  
+Also you can customize styles using SCSS which gives more design control.  
+This makes slides more professional and consistent but also more technical to learn.
+
+I also noticed that Revealjs allows incremental lists, animations, transitions, hidden slides, and code execution display.  
+This makes it very useful for data science presentations.  
+For example you can show code step by step which helps teaching.
+
+Compared to PowerPoint, Revealjs strengths are flexibility, reproducibility, interactivity, and integration with data analysis.  
+However its weakness is that it is harder to learn and requires coding knowledge.  
+PowerPoint is easier and faster for beginners but less customizable.
+
+Overall I think Revealjs is more powerful but also more complex.  
+I liked how it connects presentation with analysis workflow, but it may take more time to master.
+
+::: {.callout-tip}
+Revealjs is better for technical or data presentations, while PowerPoint is easier for simple presentations.
+:::
+
+### Feature Comparison
+
+::: {.panel-tabset}
+
+#### Strengths of Revealjs
+- interactive tools (zoom, chalkboard, multiplex)  
+- code integration  
+- customizable themes  
+- reproducible slides  
+- better for analytics work  
+
+#### Weaknesses of Revealjs
+- harder to learn  
+- requires coding  
+- debugging issues possible  
+- slower workflow at first  
+
+#### PowerPoint Comparison
+- easier interface  
+- faster for simple slides  
+- less flexible customization  
+- not reproducible for data workflows  
+
+:::
+
+Revealjs felt modern and dynamic but also more technical.  
+I think with more practice it can become very useful for professional presentations.
+
+## Question 5 Reflection {#sec-q5}
+
+### Presentation Link
+
+My Revealjs presentation link is:  
+[View my Revealjs presentation](https://brianamaximino.github.io/Reveal-Slides/#/title-slide)
+### What the presentation is about
+
+My presentation is about my marketing portfolio and my future career goals.  
+It shows my background as a business marketing student, my skills, and what type of marketing work I want to do in the future.  
+It is also like a draft version of my real portfolio website that I will build later.
+
+### What I learned about Revealjs
+
+From this experience I learned that Revealjs is more flexible than PowerPoint because it uses code.  
+You can change themes, layouts, animations, and make slides interactive.  
+I also learned that you can publish the presentation like a real website which makes it more professional.  
+
+However it was harder at first because you need to understand Quarto and coding.  
+Overall Revealjs is powerful and good for modern presentations.
+
+## Step 6 Reflection – Advanced Wrangling
+
+In the advanced wrangling lecture, I learned new concepts that were not covered before in M05.  
+One important topic was joining relational databases.  
+This means combining datasets using a shared variable like an id.
+
+Joining is useful when data is stored in different tables but we want to analyze it together.  
+Below are three join functions I learned.
+
+---
+
+### 1. left_join()
+
+We use left join when we want to keep all rows from the main dataset.  
+Even if the second dataset does not have matching values, the original data stays.
+
+```{r}
+library(tidyverse)
+
+students <- tibble(
+  id = c(1,2,3,4),
+  name = c("Ana","Ben","Chris","Diana")
+)
+
+grades <- tibble(
+  id = c(1,2,4),
+  grade = c(90,85,88)
+)
+
+left_join(students, grades, by = "id")
+```
+
+## Question 7 Reflection – Data Wrangling Experience
+
+The thing I liked the most about working with the tools in this module was using **dplyr functions** like `filter()`, `mutate()`, and `summarize()`.  
+These functions made data cleaning feel more organized and logical.  
+Before learning tidyverse tools, working with data felt confusing and stressful.  
+Now it feels more structured, like following steps in a process.
+
+For example, I liked how `mutate()` lets me create new variables easily.  
+Instead of doing complicated calculations separately, I can transform data directly inside the dataset.  
+Also `group_by()` + `summarize()` helped me understand patterns faster because I could quickly see averages or totals.
+
+Another thing I liked was **tidyr tools**, especially `pivot_longer()` and `pivot_wider()`.  
+These functions helped me understand how data shape affects analysis.  
+At first it was confusing, but once I practiced, I realized reshaping data is very powerful.
+
+What I also liked is that tidyverse code is readable.  
+It almost feels like writing sentences.  
+This makes debugging easier and helps me understand my own code later.
+
+Overall, this module helped me realize that good analysis depends on clean data first.  
+Visualization may look impressive, but wrangling is what makes the results meaningful.  
+I also understand that there is still more to learn in future modules, and I feel more confident now to continue improving my data skills.
+
+## Reflection 8 – Challenges learning wrangling tools
+
+One challenge for me when learning wrangling tools is that there is just too many functions.  
+Sometimes I dont know which one to use or why one is better than another.  
+I also get confused when I try to combine many steps together because the code can get messy fast.
+
+Another problem is working with real data.  
+The datasets are not always clean like examples in class.  
+So I spend a lot of time just trying to understand the data first before even doing analysis.  
+When errors show up I get frustrated because I dont always know what the error means.
+
+To overcome this I think focusing on basics is the best way.  
+Instead of trying to learn everything at once, I should just practice simple functions like `filter()`, `mutate()`, and `group_by()`.  
+Once I understand these better, then I can move to harder tools.
+
+I also think watching videos and coding along helps alot.  
+But I learned that just copying code is not enough.  
+I need to stop, think, and try to understand what each step is doing.
+
+Overall wrangling is hard but I feel like practice makes it easier.  
+If I keep working on it little by little I will improve and feel more confident using the tools.
