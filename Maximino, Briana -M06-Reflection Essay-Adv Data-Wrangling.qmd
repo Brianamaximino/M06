@@ -24,7 +24,7 @@ My published presentation can be viewed here:
 
 ## Published Essay Reflection Link
 
-My published essay reflection can be viewed here:  
+My published essay reflection can be viewed here:
 [View my essay reflection](https://brianamaximino.github.io/M06/)
 
 ## Exam Reflection Essay
@@ -307,7 +307,6 @@ left_join(students, grades, by = "id")
 ```
 
 ## Question 7 Reflection – Data Wrangling Experience
-
 
 The thing I liked the most about working with the tools in this module was using **dplyr functions** like `filter()`, `mutate()`, and `summarize()`.  
 These functions made data cleaning feel more organized and logical.  
