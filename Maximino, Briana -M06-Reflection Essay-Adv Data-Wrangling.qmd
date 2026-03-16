@@ -17,17 +17,18 @@ execute:
   echo: true
 ---
 
-## Published Presentation Link
+
+## Exam Reflection Essay
+
+**Published Presentation Link**
 
 My published presentation can be viewed here:  
 [View my presentation](https://brianamaximino.github.io/Reveal-Slides/#/title-slide)
 
-## Published Essay Reflection Link
+**Published Essay Reflection Link**
 
 My published essay reflection can be viewed here:
 [View my essay reflection](https://brianamaximino.github.io/M06/)
-
-## Exam Reflection Essay
 
 **Prompt:**  
 What did you learn from the Tidyverse tricks presentation that was new or not covered in Module 05?
