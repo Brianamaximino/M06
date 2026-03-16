@@ -17,10 +17,15 @@ execute:
   echo: true
 ---
 
-## Published Report Link
+## Published Presentation Link
 
-My published report can be viewed here:  
-[View my report](https://brianamaximino.github.io/M06/)
+My published presentation can be viewed here:  
+[View my presentation](https://brianamaximino.github.io/Reveal-Slides/#/title-slide)
+
+## Published Essay Reflection Link
+
+My published essay reflection can be viewed here:  
+[View my essay reflection](https://brianamaximino.github.io/M06/)
 
 ## Exam Reflection Essay
 
@@ -253,7 +258,7 @@ I think with more practice it can become very useful for professional presentati
 ### Presentation Link
 
 My Revealjs presentation link is:  
-[View my Revealjs presentation](https://brianamaximino.github.io/M06/)
+[View my Revealjs presentation](https://brianamaximino.github.io/Reveal-Slides/#/title-slide)
 ### What the presentation is about
 
 My presentation is about my marketing portfolio and my future career goals.  
