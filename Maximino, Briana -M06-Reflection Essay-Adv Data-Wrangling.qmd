@@ -17,6 +17,11 @@ execute:
   echo: true
 ---
 
+## Published Report Link
+
+My published report can be viewed here:  
+[View my report](https://brianamaximino.github.io/M06/)
+
 ## Exam Reflection Essay
 
 **Prompt:**  
